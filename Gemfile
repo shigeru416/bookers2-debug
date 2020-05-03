@@ -67,12 +67,3 @@ gem "refile-mini_magick"
 gem 'jquery-rails'
 
 gem 'bootstrap-sass', '~>3.3.6'
-
-group :test do
-gem 'rspec-rails', '~> 3.6.0'
-gem 'factory_bot_rails'
-gem 'rspec-parameterized'
-gem 'faker' #ランダム値の生成
-gem 'shoulda-matchers'
-gem 'rails-controller-testing'
-end
